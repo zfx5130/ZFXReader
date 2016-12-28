@@ -1,0 +1,12 @@
+//
+//  ZFXReader-Prefix.pch
+//  ZFXReader
+//
+//  Created by admin on 16/12/28.
+//  Copyright © 2016年 thomas. All rights reserved.
+//
+
+#ifndef ZFXReader_Prefix_pch
+#define ZFXReader_Prefix_pch
+
+#endif

@@ -51,6 +51,7 @@
 		84FC90B11E1372310001D6DD /* ZFXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZFXMainViewController.h; path = ZFXReader/AppDelegate/ZFXMainViewController.h; sourceTree = SOURCE_ROOT; };
 		84FC90B21E1372310001D6DD /* ZFXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFXMainViewController.m; path = ZFXReader/AppDelegate/ZFXMainViewController.m; sourceTree = SOURCE_ROOT; };
 		84FC90B41E1372580001D6DD /* ZFXMainViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ZFXMainViewController.storyboard; path = ZFXReader/AppDelegate/ZFXMainViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		84FC90B61E1399A90001D6DD /* ZFXReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZFXReader-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +113,9 @@
 		84FC90741E136E220001D6DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84FC90851E136E220001D6DD /* Info.plist */,
+				84FC90B61E1399A90001D6DD /* ZFXReader-Prefix.pch */,
 				84FC90821E136E220001D6DD /* LaunchScreen.storyboard */,
+				84FC90851E136E220001D6DD /* Info.plist */,
 				84FC90751E136E220001D6DD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -571,6 +573,7 @@
 				84FC90A01E136E220001D6DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84FC90A11E136E220001D6DD /* Build configuration list for PBXNativeTarget "ZFXReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +582,7 @@
 				84FC90A31E136E220001D6DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84FC90A41E136E220001D6DD /* Build configuration list for PBXNativeTarget "ZFXReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +591,7 @@
 				84FC90A61E136E220001D6DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

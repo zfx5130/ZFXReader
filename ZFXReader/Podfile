@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+target 'ZFXReader' do
+
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+
+# Development
+
+pod 'MTLog'
+
+end
