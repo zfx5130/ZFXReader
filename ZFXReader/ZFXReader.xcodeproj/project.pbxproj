@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		84FC90761E136E220001D6DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC90751E136E220001D6DD /* main.m */; };
 		84FC90811E136E220001D6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90801E136E220001D6DD /* Assets.xcassets */; };
-		84FC90841E136E220001D6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90821E136E220001D6DD /* LaunchScreen.storyboard */; };
 		84FC908F1E136E220001D6DD /* ZFXReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC908E1E136E220001D6DD /* ZFXReaderTests.m */; };
 		84FC909A1E136E220001D6DD /* ZFXReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC90991E136E220001D6DD /* ZFXReaderUITests.m */; };
 		84FC90AA1E1370AC0001D6DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC90A91E1370AC0001D6DD /* AppDelegate.m */; };
 		84FC90B31E1372320001D6DD /* ZFXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC90B21E1372310001D6DD /* ZFXMainViewController.m */; };
 		84FC90B51E1372580001D6DD /* ZFXMainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90B41E1372580001D6DD /* ZFXMainViewController.storyboard */; };
+		84FC90C31E13A8810001D6DD /* 515icon_14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90C01E13A8810001D6DD /* 515icon_14.gif */; };
+		84FC90C41E13A8810001D6DD /* 515icon_book2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90C11E13A8810001D6DD /* 515icon_book2.gif */; };
+		84FC90C51E13A8810001D6DD /* 515icon_gift.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90C21E13A8810001D6DD /* 515icon_gift.gif */; };
+		84FC90C81E13A8B40001D6DD /* emojiImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90C71E13A8B40001D6DD /* emojiImage.plist */; };
+		84FC90CC1E13ABCD0001D6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC90CB1E13ABCD0001D6DD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		84FC90711E136E220001D6DD /* ZFXReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFXReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FC90751E136E220001D6DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84FC90801E136E220001D6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84FC90831E136E220001D6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FC90851E136E220001D6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FC908A1E136E220001D6DD /* ZFXReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFXReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FC908E1E136E220001D6DD /* ZFXReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFXReaderTests.m; sourceTree = "<group>"; };
@@ -52,6 +55,11 @@
 		84FC90B21E1372310001D6DD /* ZFXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFXMainViewController.m; path = ZFXReader/AppDelegate/ZFXMainViewController.m; sourceTree = SOURCE_ROOT; };
 		84FC90B41E1372580001D6DD /* ZFXMainViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ZFXMainViewController.storyboard; path = ZFXReader/AppDelegate/ZFXMainViewController.storyboard; sourceTree = SOURCE_ROOT; };
 		84FC90B61E1399A90001D6DD /* ZFXReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZFXReader-Prefix.pch"; sourceTree = "<group>"; };
+		84FC90C01E13A8810001D6DD /* 515icon_14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 515icon_14.gif; sourceTree = "<group>"; };
+		84FC90C11E13A8810001D6DD /* 515icon_book2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 515icon_book2.gif; sourceTree = "<group>"; };
+		84FC90C21E13A8810001D6DD /* 515icon_gift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 515icon_gift.gif; sourceTree = "<group>"; };
+		84FC90C71E13A8B40001D6DD /* emojiImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emojiImage.plist; sourceTree = "<group>"; };
+		84FC90CB1E13ABCD0001D6DD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +121,8 @@
 		84FC90741E136E220001D6DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84FC90CB1E13ABCD0001D6DD /* LaunchScreen.storyboard */,
 				84FC90B61E1399A90001D6DD /* ZFXReader-Prefix.pch */,
-				84FC90821E136E220001D6DD /* LaunchScreen.storyboard */,
 				84FC90851E136E220001D6DD /* Info.plist */,
 				84FC90751E136E220001D6DD /* main.m */,
 			);
@@ -188,6 +196,8 @@
 		84FC90AF1E1371DB0001D6DD /* ReSource */ = {
 			isa = PBXGroup;
 			children = (
+				84FC90C61E13A8980001D6DD /* other files */,
+				84FC90BF1E13A8670001D6DD /* images */,
 			);
 			path = ReSource;
 			sourceTree = "<group>";
@@ -197,6 +207,24 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		84FC90BF1E13A8670001D6DD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84FC90C01E13A8810001D6DD /* 515icon_14.gif */,
+				84FC90C11E13A8810001D6DD /* 515icon_book2.gif */,
+				84FC90C21E13A8810001D6DD /* 515icon_gift.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		84FC90C61E13A8980001D6DD /* other files */ = {
+			isa = PBXGroup;
+			children = (
+				84FC90C71E13A8B40001D6DD /* emojiImage.plist */,
+			);
+			path = "other files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +336,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FC90C51E13A8810001D6DD /* 515icon_gift.gif in Resources */,
 				84FC90B51E1372580001D6DD /* ZFXMainViewController.storyboard in Resources */,
-				84FC90841E136E220001D6DD /* LaunchScreen.storyboard in Resources */,
+				84FC90C41E13A8810001D6DD /* 515icon_book2.gif in Resources */,
+				84FC90C31E13A8810001D6DD /* 515icon_14.gif in Resources */,
+				84FC90CC1E13ABCD0001D6DD /* LaunchScreen.storyboard in Resources */,
+				84FC90C81E13A8B40001D6DD /* emojiImage.plist in Resources */,
 				84FC90811E136E220001D6DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,17 +403,6 @@
 			targetProxy = 84FC90961E136E220001D6DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		84FC90821E136E220001D6DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FC90831E136E220001D6DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84FC909C1E136E220001D6DD /* Debug */ = {
